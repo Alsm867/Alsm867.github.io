@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://res.cloudinary.com/dzjkwepju/image/upload/v1638554495/Styckr/S_2_l5vhdr.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam's Portfolio</title>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+
+    <main>
+      <header>
+        <h1>Samuel Ortega</h1>
+        <p>Welcom To My Portfolio Website!</p>
+      </header>
+
+      <section>
+        <h2>About Me!</h2>
+        <p>
+          I am passionate about learning something new. I took the 24 week
+          course at App Academy, where I learned various coding languages and
+          skills, and I utilized what I learned to create fully functional
+          websites. I'm a team player, and take charge when it's needed. The
+          unknown is does not intimidate me. In fact I love the challenge and
+          welcome it.
+          <a href="https://github.com/Alsm867"
+          >My G-hub Link<img
+            src="https://res.cloudinary.com/dzjkwepju/image/upload/v1637101398/Styckr/Untitled_design_o5b62v.png"
+            alt="hub"
+            width="20px"
+            height="20px"
+        /></a>
+        <a href="https://www.linkedin.com/in/sam-ortega-66677921a/"
+          >Linkedin Link
+          <img
+            src="https://res.cloudinary.com/dzjkwepju/image/upload/v1637101453/Styckr/Untitled_design_1_eohmqp.png"
+            alt="linked"
+            width="20px"
+            height="20px"
+        /></a>
+        </p>
+      </section>
+
+      <section class="light">
+        <h2>Projects!</h2>
+
+        <h3>Stellar Note Nov 2021</h3>
+        <a href="https://stellar-note.herokuapp.com/">Stellar Note Live Link</a
+        ><br />
+        <a href="https://github.com/Alsm867/StellarNote">Repo Link</a>
+        <p>
+          This is my clone of Evernote with Express, React, and redux with a
+          retro 80’s space theme. To match the notes with the notebook it
+          belongs to I used associations in the backend database to make sure
+          the note stays with it’s related notebook. I used a CKEditor api to
+          add a text editor to the notes so the user can style their notes more
+          than just the plain text. To implement a seamless user experience I
+          created an auto save function with a setTimeout to save the state
+          every 4.5 seconds so the user doesn’t have to worry about manually
+          saving their notes.
+        </p>
+
+        <h3>Angry Cloud Nov 2021</h3>
+        <a href="https://angry-cloud.herokuapp.com/">Angry Cloud Live Link</a
+        ><br />
+        <a href="https://github.com/pstory721/soundCloudClone">Repo Link</a>
+        <p>
+          My group and I cloned SoundCloud using Python, React.js, Flask, and a
+          theme of angry music. To render an api that persists throughout the
+          app to play song files, We had to create a context in the state to
+          constantly add, and take away songs from the player itself based on
+          which song/playlist you chose to listen to. Using AWS we created a
+          file upload system so users can create their own songs and playlists
+          with their unique album art. We had to build a full route and multiple
+          flask files and a full api route to react / redux to render the newly
+          made songs. To Create a seamless experience when creating, editing, or
+          deleting a comment we used Redux state to automatically listen for
+          those changes to dynamically render them.
+        </p>
+
+      </section>
+
+      <blockquote>
+        <p>
+          "Sometimes people faile, and that's okay. What matters is that you
+          keep trying." <br />-Sam Ortega
+        </p>
+      </blockquote>
+
+      <section class="left">
+        <a
+          href="https://drive.google.com/file/d/1L5FdCaHd2fdSGu_coiw209lz4jD1K1R5/view?usp=sharing"
+          >Link To Resume</a
+        >
+        <h2>Work History</h2>
+
+        <h3>Herman Miller</h3>
+        <p>
+          I started as an assembly line worker where I learned all the positions
+          they had in the assembly line as well as the machine operating part of
+          the Casegoods department. I learned the entire process that goes into
+          building the furniture from machining all the parts and putting it all
+          together as well as all the components that went into them(drawers,
+          doors, handles, drawer slides, etc.). I made it my mission to learn
+          everything, and I accomplished that mission by the time I left that
+          company. I moved up to a position called Responder where I was put in
+          charge of 5 assembly lines. I was tasked with making sure the lines
+          were running smoothly, fixing any machine or tool that went down(if I
+          couldn’t fix it within 3 mins I would call maintenance to fix it so I
+          can get production moving as quickly as possible). I would write any
+          struggles that a line would have had every hour on what we called an
+          hour by hour chart, so that my higher ups will know what slowed down
+          production or why we didn’t meet that hour's goal. I was also in
+          charge of who worked on what line for that day to utilize everyone’s
+          skills in the right spots on the line for better production.
+        </p>
+        <h3>Temp Worker</h3>
+        <p>
+          I was a temp worker for Herman Miller through the Adecco agency where
+          I worked at two different departments. One department was to refill
+          the fabric needed for three different lines. I was in charge of
+          pulling manifests that told me what fabric was needed and for what
+          line, and I had to locate the fabric and bring it to the line before
+          they ran out of work. The second department I was pulling manifests
+          that told me what boxes were needed for what department. I would
+          locate the boxes in bulk and place them on carts and bring them to the
+          department that needed them. the boxes in bulk and place them on carts
+          and bring them to the department that needed them.
+        </p>
+      </section>
+
+      <blockquote>
+        <p>Thank you for visiting my portfolio!</p>
+      </blockquote>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
