@@ -6,6 +6,10 @@ canvas {
   left: 0;
 }
 
+.please{
+  text-decoration: none;
+  color: blue;
+}
 
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
